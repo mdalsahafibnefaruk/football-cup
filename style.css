@@ -44,5 +44,81 @@ header{
     font-size: 22px;
     width: 460px;
 }
+/* ===========header section end========== */
 
 
+/* ===========common items========== */
+.btn{
+    padding: 15px 20px;
+    background-color: crimson;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn i{
+    margin-left: 5px;
+    transition: margin-left 0.3s;
+}
+.btn:hover{
+    background-color: #ee130c;
+}
+.btn:hover i{
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+/* common items */
+/* blog section start from here */
+.containers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    padding: 0% 5%;
+    margin-bottom: 150px;
+}
+.blog-info h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.blogSection{
+    width: 220px;
+    background-color: #161616;
+    padding: 30px;
+    border-radius: 8px;
+    height: 225px;
+    position: sticky;
+    top: 50px;
+}
+.blogSection .options{
+    display: grid;
+    justify-content: center;
+    row-gap: 5px;
+    
+
+}
+.blogSection .options .btn{
+    background-color: whitesmoke;
+
+}
+.btn a{
+    color: black;
+
+}
+.blogSection .options .btn:hover{
+    background: crimson;
+    color: whitesmoke;
+}
+.btn:hover{
+    background-color: orangered;
+
+}
+.btn:nth-child(3) a{
+    color: whitesmoke;
+}
